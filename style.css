@@ -51,6 +51,7 @@
     position: absolute;
     object-fit: cover;
     border-radius: 30px;
+    transition: opacity 800ms ;
 }
 #img .selected {
     opacity: 1;
