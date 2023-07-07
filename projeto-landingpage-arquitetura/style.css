@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+#title{
+    background-color: #303030;
+    color: white;
+    padding: 170px 0px 130px 50px;
+    
+}
+#title h1{
+    font-size: 45px;
+}
+#title p{
+    font-size: 15px;
+}
+#menuinformation{
+    background-color: aliceblue;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 60px 0px 50px 130px;
+}
+#menuinformation h1{
+    font-size: 25px;
+    line-height: 20px;
+}
+#menuinformation p{
+    padding-top: 5px;
+}
+#menu-description{
+    display: grid;
+    grid-auto-flow: column;
+    columns:auto;
+}
+#text{
+    padding: 200px 20px 50px 130px;
+    font-size: 17px;
+}
+#img{
+    height: 505px;
+    width: 410px;
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#carrossel img{
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    border-radius: 30px;
+}
+#img .selected {
+    opacity: 1;
+}
+#formulario{
+    background-color: #303030;
+    color: white;
+    text-align: center;
+}
+#formulario h1{
+    padding-top: 80px;
+    font-size: 30px;
+}
+#Name{
+    margin-top:40px;
+}
+input{
+    width: 350px;
+    height: 40px;
+    background-color: white;
+    margin: 15px;
+    border: 0;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+button{
+    width: 200px;
+    height: 40px;
+    background-color: #C07212;
+    border: 0px;
+    border-radius: 5px;
+    margin: 40px 15px 50px 15px;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #e68816;
+    color: white;
+    transform: translateY(7px);
+    transition-duration: 0.3s;
+    box-shadow: 0px 15px 15px  #eaa85680;
+}
